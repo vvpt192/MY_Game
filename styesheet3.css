@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(164, 232, 176);
+}
+
+.container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    height: 350px; /* Only one height definition */
+    margin-bottom: 0.5rem;
+}
+
+.btn {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+button {
+    margin-top: 0.45rem;
+    width: 3rem; /* Adjusted width for consistency */
+    height: 2rem;
+    cursor: pointer;
+    padding: 0.5rem; /* Reduced padding for a more uniform look */
+    border-radius: 0.5rem;
+    text-align: center; /* Center-aligns text within the button */
+    text-decoration-color: #04AA6D;
+    color: #04AA6D;
+    margin-bottom: .005rem;
+}
+
+.input {
+    margin-bottom:1rem ;
+    width: 95%;
+    height: 50px;
+    font-size: 1.5rem;
+    border-radius: 0.50rem;
+    padding: 0.45rem;
+    background-color:#04AA6D;
+    color:white;     
+    border-style: none;
+}
+#cl{
+    font-size: 8vh;
+    margin-bottom: .75rem;
+    margin-top: 0;
+    color: #04AA6D;
+    text-decoration: dashed;
+    text-shadow: black;
+}
+.form{
+    margin-bottom: 2rem;
+}

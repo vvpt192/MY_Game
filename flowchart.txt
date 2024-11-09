@@ -1,0 +1,92 @@
+Start
+  |
+  v
+Get User Input (via Button or Keyboard)
+  |
+  v
+Is Input a Number? --------------> Yes ------------> Append to Display
+  |                                            |
+  No                                           |
+  |                                            v
+Is Input an Operator? ------> Yes ---------------> Append Operator to Display
+  |                                            |
+  No                                           |
+  |                                            v
+Is Input 'Backspace'? ------> Yes ---------------> Remove Last Character
+  |                                            |
+  No                                           |
+  |                                            v
+Is Input 'AC'? -------------> Yes ---------------> Clear Display
+  |                                            |
+  No                                           |
+  |                                            v
+Is Input '=' or 'Enter'? --> Yes ---------------> Evaluate Expression (using eval)
+  |                                            |
+  No                                           |
+  |                                            v
+Display Result                           Error (if invalid expression)
+  |
+  v
+End
+---------------------------------------------------------------*-----------------------------------
++-------------------------+
+|        Start             |
++-------------------------+
+            |
+            v
++-------------------------+
+| Get User Input (Button/  |
+| Keyboard Event)          |
++-------------------------+
+            |
+            v
++-----------------------------+
+| Is the Input "AC" ?          |-- Yes ---> Clear Input Field
++-----------------------------+   
+            |                   
+            No                
+            |                  
+            v
++-----------------------------+
+| Is the Input "cut" ?         |-- Yes ---> Remove Last Character
++-----------------------------+
+            |
+            No
+            |
+            v
++-----------------------------+
+| Is the Input a Number,      |
+| Operator, or Decimal Point? |-- Yes ---> Append to Input Field
++-----------------------------+
+            |
+            v
++-----------------------------+
+| Is the Input "Enter" or "="?|-- Yes ---> Evaluate Expression
++-----------------------------+
+            |
+            v
++-----------------------------+
+| Try to evaluate expression  |
++-----------------------------+
+            |
+            v
++-----------------------------+
+| Is the Expression Valid?    |-- Yes ---> Display Result
++-----------------------------+   
+            |                  
+            No                
+            |                  
+            v                  
++-----------------------------+
+| Display "Error"             |
++-----------------------------+
+            |
+            v
+         End
+-------------------------------------------------*----------------------------------------------------------
+
+
+
+create git user name and email id with git commands.
+ git config --global user.name "vvpt192"
+ git config --global user.email "vvpt192@gmail.com"
